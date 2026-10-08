@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>querySelector Example</title>
+</head>
+<body>
+
+<h1 id="title">Welcome to JavaScript</h1>
+<button onclick="changeText()">Click Me</button>
+
+<script>
+function changeText() {
+    let element = document.querySelector("#title");
+    element.innerHTML = "Text Changed!";
+}
+</script>
+
+</body>
+</html>

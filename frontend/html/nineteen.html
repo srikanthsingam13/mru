@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head><title>nineteen</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .sidebar{
+            width:25%;
+            padding-bottom:500px;
+            background-color: lightblue;
+            
+        }
+        .main{
+            width:75%;
+            padding-bottom:500px;
+            background-color: cadetblue;
+        }
+        .sidebar a{
+            display: block;
+            padding:15px 20px;
+            border-bottom:1px solid gray;
+            color:white;
+            font-size: 18px;
+            transition:0.3s;
+            text-decoration: none;
+        }
+        .sidebar a:hover{
+            background-color: #3498db;;
+            padding-left:30px;
+        }
+        .sidebar h3{
+            color:white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        .form-control{
+            width:110%;
+            padding:10px;
+            border: 1px solid black;
+            border-radius:4px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+        table{
+            padding-top:50px;
+            padding-left: 200px;
+            color:white;
+        }
+        header,footer{
+            color:white;
+            background-color: brown;
+            padding-bottom:20px;
+            text-align: center;
+        }
+        nav{
+            background:#222;
+            display:flex;
+            align-items:center;
+            }
+        nav a{
+            text-decoration: none;
+            color:white;
+            padding:15px 20px;
+        }
+        nav a:hover{
+            background-color: #4CAF50;
+            padding-left:30px;
+        }
+    </style>
+    </head>
+    <body>
+        <header>
+            Java Full Stack Training
+        </header>
+        <nav>
+             <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Courses</a>
+        <a href="#">Students</a>
+        <a href="#">Contact</a>
+        <a href="#" class="right">Logout</a>
+        </nav>
+        <div class="container">
+                <aside class="sidebar">
+                    <h3>Dashboard</h3>
+                <a href="#">🏠 Home</a>
+                <a href="#">👤 Profile</a>
+                <a href="#">👨‍🎓 Students</a>
+                <a href="#">📚 Courses</a>
+                <a href="#">👨‍🏫 Trainers</a>
+                <a href="#">📅 Attendance</a>
+                <a href="#">📝 Exams</a>
+                <a href="#">📊 Reports</a>
+                <a href="#">⚙ Settings</a>
+                <a href="#">🚪 Logout</a>
+                </aside>
+                <main class="main">
+                    <marquee>Register here</marquee>
+                    <form action="one.html">
+                    <table>
+                        <tr><td>username</td><td><input type="text" class="form-control" /></td></tr>
+                        <tr><td>password</td><td><input type="password" class="form-control" /></td></tr>
+                        <tr><td>email</td><td><input type="email" class="form-control" /></td></tr>
+                    <tr><td>phone</td><td><input type="number" class="form-control" /></td></tr>
+                    <tr><td>date</td><td><input type="date" class="form-control" /></td></tr>
+                    <tr><td>address</td><td><textarea cols="5" rows="5" class="form-control"></textarea></td></tr>
+                    <tr><td>Gender</td><td><input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female</td></tr>
+                    <tr>
+                <td>Languages</td>
+                <td>
+                    <input type="checkbox"> Telugu
+                    <input type="checkbox"> English
+                    <input type="checkbox"> Hindi
+                </td>
+            </tr>
+            <td>Course</td>
+                <td>
+                    <select class="form-control">
+                        <option>JAVA</option>
+                        <option>C</option>
+                        <option>C++</option>
+                        <option>PYTHON</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register" class="form-control"></td>
+            </tr>                  
+                    </table>
+                    </form>
+                </main>
+        </div>
+        <footer>@mruh</footer>
+
+    </body>
+</html>

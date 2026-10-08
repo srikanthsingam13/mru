@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head><title>nineteen</title></head>
+    <body>
+        <p class="para">parapraph1</p>
+        <p class="para">paragraph2</p>
+        <p class="para">paragraph3</p>
+        <button onclick="changeColor()">click</button>
+
+    </body>
+    <script>
+        function changeColor()
+        {
+            let elements=document.querySelectorAll(".para");
+            
+           elements.forEach(function(item) {
+            item.style.color = "blue";
+           });
+        
+        }
+    </script>
+</html>

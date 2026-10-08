@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head><title>twelve</title></head>
+    <style>
+        p{
+            width:150px;
+            padding:15px;
+            margin:20px;
+            border:1px solid red;
+        }
+    </style>
+    <body>
+        <p>one</p>
+        <p>two</p>
+        <button onclick="changeColor()">button</button>
+        <script>
+            function changeColor(){
+            let elements=document.getElementsByTagName("p");
+            elements[0].style.backgroundColor="cyan";
+                }
+        </script>
+    </body>
+</html>

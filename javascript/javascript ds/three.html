@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>getElementsByTagName Example</title>
+</head>
+<body>
+
+<p>Java</p>
+<p>Python</p>
+<p>React</p>
+
+<button onclick="changeColor()">Change Color</button>
+
+<script>
+function changeColor() {
+    let para = document.getElementsByTagName("p");
+    para[0].style.backgroundColor = "yellow";
+}
+</script>
+
+</body>
+</html>

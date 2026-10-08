@@ -1,0 +1,17 @@
+for(let i=1;i<=5;i++)
+{
+    console.log(i);
+}
+
+let j=0;
+for(;j<=5;j++)
+{
+    console.log(j);
+}
+
+let k=1;
+for(;k<=5;)
+{
+    console.log(k);
+    k++;
+}

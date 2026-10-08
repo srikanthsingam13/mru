@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head><title>one</title></head>
+    <body><p id="title">Java full stack</p>
+    <h1 class="head1">hello</h1>
+    <p class="msg">One</p>
+    <p class="msg">Two</p>
+<div class="box">Box 1</div>
+<div class="box">Box 2</div>
+<div class="box">Box 3</div>
+
+<button onclick="changeColor()">Change Color</button>
+
+
+
+
+    </body>
+   <script>
+    let heading = document.getElementById("title");
+    console.log(heading);
+    heading.style.color = "blue";
+
+    let header1=document.getElementById("title");
+    header1.style.color="red";
+    
+    
+    function changeColor() {
+    let elements = document.getElementsByClassName("box");
+    elements[0].style.backgroundColor = "yellow";
+    }
+    
+</script>
+</html> 

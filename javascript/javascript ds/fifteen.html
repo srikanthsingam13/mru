@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head><title>fifteen</title></head>
+    <body><p id="one">hello</p></body>
+    <button onclick="changeColor()">click</button>
+
+    <script>
+        function changeColor(){
+            let element=document.getElementById("one");
+            element.style.color="red";
+            alert("paragraph color changed through dom...");
+        }
+    </script>
+</html>

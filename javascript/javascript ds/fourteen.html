@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>fourteen</title>
+</head>
+<body>
+    <p class="one">hello</p>
+    <p class="one">hi</p>
+    <p class="one">welcome</p>
+    <button onclick="changeColor()">click</button>
+    <script>
+        function changeColor(){
+        let elements=document.querySelectorAll(".one");
+
+        elements.forEach(function(item) {
+        item.style.color = "blue";
+    });
+}
+
+    </script>
+</body>
+</html>

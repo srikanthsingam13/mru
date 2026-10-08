@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head><title>sixteen</title></head>
+    <style>
+        .container{
+            display: flex;
+        }
+        aside{
+            width:25%;
+            background-color: lightblue;
+            padding-bottom:400px;
+        }
+     
+        main{
+            width: 90%;
+            background-color: cadetblue;
+            /*padding-bottom:400px;*/
+        }
+        header,footer{
+            padding-bottom: 20px;
+            background-color: brown;
+            color:white;
+            text-align: center;;
+        }
+        form{
+            padding-top:20px;
+            padding-left: 250px;
+            color:white;
+        }
+        
+        .form-control{
+            width: 110%;
+            padding: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        .sidebar h3{
+                color:white;
+                text-align:center;
+                margin-bottom:20px;
+            }
+           .sidebar{
+            width:220px;
+            min-height:100vh;
+            padding-top:20px;
+            }
+
+            .sidebar a{
+                display:block;
+                color:white;
+                text-decoration:none;
+                padding:15px 20px;
+                font-size:18px;
+                border-bottom:1px solid #34495e;
+                transition:0.3s;
+            }
+
+            .sidebar a:hover{
+                background:#3498db;
+                padding-left:30px;
+            }
+    </style>
+    <body>
+        <header>Java Full Stack Training</header>
+        <div class="container">
+            <aside class="sidebar">
+
+            <h3>Dashboard</h3>
+
+                <a href="#">🏠 Home</a>
+                <a href="#">👤 Profile</a>
+                <a href="#">👨‍🎓 Students</a>
+                <a href="#">📚 Courses</a>
+                <a href="#">👨‍🏫 Trainers</a>
+                <a href="#">📅 Attendance</a>
+                <a href="#">📝 Exams</a>
+                <a href="#">📊 Reports</a>
+                <a href="#">⚙ Settings</a>
+                <a href="#">🚪 Logout</a>
+
+            </aside>
+            <main>
+            <form>
+            <table>
+
+            <tr>
+                <td>Username</td>
+                <td><input type="text" class="form-control" placeholder="Enter Username"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td><input type="password" class="form-control" placeholder="Enter Password"></td>
+            </tr>
+
+            <tr>
+                <td>Email</td>
+                <td><input type="email" class="form-control" placeholder="Enter Email"></td>
+            </tr>
+
+            <tr>
+                <td>Number</td>
+                <td><input type="number" class="form-control" placeholder="Enter Number"></td>
+            </tr>
+
+            <tr>
+                <td>Date</td>
+                <td><input type="date" class="form-control"></td>
+            </tr>
+
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                </td>
+            </tr>
+
+            <tr>
+                <td>Languages</td>
+                <td>
+                    <input type="checkbox"> Telugu
+                    <input type="checkbox"> English
+                    <input type="checkbox"> Hindi
+                </td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td>
+                    <textarea rows="5" class="form-control"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Course</td>
+                <td>
+                    <select class="form-control">
+                        <option>JAVA</option>
+                        <option>C</option>
+                        <option>C++</option>
+                        <option>PYTHON</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Register"></td>
+            </tr>
+
+            </table>
+            </form>
+                    </main>
+                </div>
+<footer>@mruh</footer>
+    </body>
+</html>

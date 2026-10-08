@@ -1,0 +1,26 @@
+<!DOCTYPE html><html>
+    <head><title>sixteen</title></head>
+    <style>
+       .msg{
+        width:150px;
+        padding:15px;
+        margin:20px;
+        border:1px solid red;
+       }
+    </style>
+    <body>
+        <div class="msg">box1</div>
+        <div class="msg">box2</div>
+        <div class="msg">box3</div>
+        <button onclick="changeColor()">click</button>
+        <script>
+            function changeColor()
+            {
+                let elements=document.getElementsByClassName("msg");
+                elements[0].style.backgroundColor="green";
+                elements[1].style.backgroundColor="orange";
+                elements[2].style.backgroundColor="cyan";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            eleven
+        </title>
+        <style>
+            .box{
+            width:150px;
+            padding:15px;
+            margin:10px;
+            border:1px solid black;
+        }
+
+        </style>
+        <body>
+            <div class="box">Box 1</div>
+            <div class="box">boX2</div>
+            <div class="box">bOX3</div>
+
+            <button onclick="changeColor()">BUTTON</button>
+            <script>
+                function changeColor()
+                {
+                    let elements=document.getElementsByClassName("box");
+                    /*elements[0].style.backgroundColor="red";
+                    elements[1].style.backgroundColor="green";
+                    elements[2].style.backgroundColor="maroon";*/
+                    for(let i=0;i<=elements.length;i++)
+                {
+                    elements[i].style.backgroundColor="orange";
+                }
+                }
+            </script>
+        </body>
+    </head>
+</html>

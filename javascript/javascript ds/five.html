@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>querySelectorAll Example</title>
+</head>
+<body>
+
+<p class="demo">Java</p>
+<p class="demo">Python</p>
+<p class="demo">JavaScript</p>
+
+<button onclick="changeColor()">Click Me</button>
+
+<script>
+function changeColor() {
+    let elements = document.querySelectorAll(".demo");
+
+    elements.forEach(function(item) {
+        item.style.color = "blue";
+    });
+}
+</script>
+
+</body>
+</html>
